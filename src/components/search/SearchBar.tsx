@@ -5,14 +5,14 @@ import Button from "@/components/ui/Button";
 
 const categories = [
   "All Categories",
-  "Cleaning",
-  "Plumbing",
-  "Electrical",
-  "Beauty",
-  "Photography",
-  "Tutoring",
-  "Landscaping",
-  "Moving",
+  "Manicure & Pedicure",
+  "Hair Styling & Color",
+  "Lash Extensions",
+  "Brow Styling",
+  "Massage & Spa",
+  "Skincare & Facials",
+  "Makeup",
+  "Teeth Whitening",
 ];
 
 const locationSuggestions = [
@@ -77,7 +77,7 @@ export default function SearchBar({
           </div>
           <input
             type="text"
-            placeholder="What service are you looking for?"
+            placeholder="Search for nail artists, hairstylists, lash techs..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full rounded-xl border border-border bg-light py-3 pl-11 pr-4 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"

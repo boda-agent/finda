@@ -4,57 +4,57 @@ import Badge from "@/components/ui/Badge";
 const favorites = [
   {
     id: 1,
-    name: "Sarah's Salon",
-    category: "Hair & Beauty",
+    name: "Sarah Chen — Nail Studio",
+    category: "Nails",
     rating: 4.9,
-    reviews: 128,
+    reviews: 234,
     location: "Downtown",
-    emoji: "💇‍♀️",
+    emoji: "💅",
   },
   {
     id: 2,
-    name: "FitLife Gym",
-    category: "Fitness",
-    rating: 4.7,
-    reviews: 256,
+    name: "Jessica Park — Hair Atelier",
+    category: "Hair",
+    rating: 5.0,
+    reviews: 278,
     location: "Midtown",
-    emoji: "🏋️",
+    emoji: "💇‍♀️",
   },
   {
     id: 3,
-    name: "QuickFix Plumbing",
-    category: "Home Services",
+    name: "Mia Rodriguez — Lash Lab",
+    category: "Lashes",
     rating: 4.8,
-    reviews: 89,
-    location: "Citywide",
-    emoji: "🔧",
+    reviews: 195,
+    location: "West Side",
+    emoji: "👁",
   },
   {
     id: 4,
-    name: "PetCare Plus",
-    category: "Pet Services",
-    rating: 4.6,
-    reviews: 64,
-    location: "West Side",
-    emoji: "🐾",
-  },
-  {
-    id: 5,
-    name: "SparkleClean Co.",
-    category: "Cleaning",
+    name: "Aisha Patel — Brow Artistry",
+    category: "Brows",
     rating: 4.9,
-    reviews: 312,
-    location: "Citywide",
+    reviews: 167,
+    location: "Uptown",
     emoji: "✨",
   },
   {
+    id: 5,
+    name: "Olivia Kim — Glow Skincare",
+    category: "Skincare",
+    rating: 4.9,
+    reviews: 189,
+    location: "East Side",
+    emoji: "🧴",
+  },
+  {
     id: 6,
-    name: "Zen Spa Retreat",
-    category: "Wellness",
-    rating: 4.8,
-    reviews: 187,
-    location: "Uptown",
-    emoji: "🧖‍♀️",
+    name: "Emma Williams — Serene Spa",
+    category: "Spa & Massage",
+    rating: 4.7,
+    reviews: 243,
+    location: "Citywide",
+    emoji: "💆‍♀️",
   },
 ];
 
@@ -64,7 +64,7 @@ export default function FavoritesPage() {
       <div>
         <h1 className="text-2xl font-bold text-foreground">Favorites</h1>
         <p className="mt-1 text-sm text-muted">
-          Your saved service providers.
+          Your saved beauty professionals.
         </p>
       </div>
 

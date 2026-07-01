@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Finda — Premium Services Directory",
+  title: "FINDA — Beauty & Wellness Professionals",
   description:
-    "Discover and connect with premium service providers in your area.",
+    "Discover and book top-rated beauty and wellness professionals in your area.",
 };
 
 export default function RootLayout({

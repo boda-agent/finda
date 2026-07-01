@@ -2,12 +2,12 @@ import Container from "./Container";
 
 const columns = [
   {
-    title: "Product",
+    title: "Services",
     links: [
-      { label: "Browse Services", href: "#" },
-      { label: "List Your Business", href: "#" },
-      { label: "Pricing", href: "#" },
-      { label: "Enterprise", href: "#" },
+      { label: "Manicure & Pedicure", href: "#" },
+      { label: "Hair Styling & Color", href: "#" },
+      { label: "Lash Extensions", href: "#" },
+      { label: "Massage & Spa", href: "#" },
     ],
   },
   {
@@ -25,7 +25,7 @@ const columns = [
       { label: "Help Center", href: "#" },
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
-      { label: "Status", href: "#" },
+      { label: "For Professionals", href: "#" },
     ],
   },
 ];
@@ -41,14 +41,14 @@ export default function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white font-bold text-sm">
                 F
               </div>
-              <span className="text-xl font-bold text-dark">Finda</span>
+              <span className="text-xl font-bold text-dark">FINDA</span>
             </div>
             <p className="mt-4 text-sm text-muted leading-relaxed">
-              Discover and connect with premium service providers in your area.
+              Your trusted platform for beauty and wellness professionals. Find, book, and enjoy.
             </p>
             {/* Social Icons */}
             <div className="mt-6 flex gap-3">
-              {["Twitter", "LinkedIn", "Instagram"].map((name) => (
+              {["Instagram", "TikTok", "Pinterest"].map((name) => (
                 <a
                   key={name}
                   href="#"
@@ -88,7 +88,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-border py-6">
           <p className="text-center text-xs text-muted">
-            © {new Date().getFullYear()} Finda. All rights reserved.
+            © {new Date().getFullYear()} FINDA. All rights reserved.
           </p>
         </div>
       </Container>

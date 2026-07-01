@@ -8,13 +8,14 @@ import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 
 const MOCK_SERVICES = [
-  { id: "s1", name: "Design Consultation", price: 150, duration: "1 hour" },
-  { id: "s2", name: "Room Redesign", price: 800, duration: "1-2 days" },
-  { id: "s3", name: "Full Home Design", price: 3500, duration: "2-4 weeks" },
-  { id: "s4", name: "Home Staging", price: 1200, duration: "1-3 days" },
+  { id: "s1", name: "Gel Manicure", price: 45, duration: "45 min" },
+  { id: "s2", name: "Gel-X Full Set", price: 75, duration: "1 hr 15 min" },
+  { id: "s3", name: "Nail Art Design", price: 30, duration: "30 min" },
+  { id: "s4", name: "Russian Volume Lashes", price: 120, duration: "2 hrs" },
+  { id: "s5", name: "Lash Fill", price: 65, duration: "1 hr" },
 ];
 
-const PROVIDER_NAME = "Sarah Mitchell";
+const PROVIDER_NAME = "Sarah Chen";
 
 export default function BookPage() {
   const [completed, setCompleted] = useState<BookingData | null>(null);
@@ -28,13 +29,13 @@ export default function BookPage() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
           </div>
-          <h1 className="mt-4 text-2xl font-bold text-foreground">Booking Confirmed!</h1>
+          <h1 className="mt-4 text-2xl font-bold text-foreground">Booking Confirmed! ✨</h1>
           <p className="mt-2 text-muted">
             Your <strong>{completed.serviceName}</strong> with {PROVIDER_NAME} has been booked for{" "}
             <strong>{completed.date}</strong> ({completed.timeSlot}).
           </p>
           <p className="mt-1 text-sm text-muted">
-            You&apos;ll receive a confirmation email shortly.
+            You&apos;ll receive a confirmation email shortly. See you soon! 💅
           </p>
           <div className="mt-6 flex justify-center gap-3">
             <Button href="/">Back to Home</Button>
@@ -51,7 +52,7 @@ export default function BookPage() {
     <Container narrow className="py-12">
       <div className="mb-8 text-center">
         <h1 className="text-2xl font-bold text-foreground">Book with {PROVIDER_NAME}</h1>
-        <p className="mt-2 text-muted">Complete the steps below to schedule your appointment.</p>
+        <p className="mt-2 text-muted">Choose your beauty service and schedule your appointment.</p>
       </div>
       <BookingForm
         providerId="1"

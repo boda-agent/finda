@@ -29,7 +29,7 @@ export default function AuthForm({
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">
               F
             </div>
-            <span className="text-2xl font-bold text-dark">Finda</span>
+            <span className="text-2xl font-bold text-dark">FINDA</span>
           </a>
           <h1 className="text-2xl font-bold text-foreground">{title}</h1>
           {subtitle && (

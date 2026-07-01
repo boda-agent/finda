@@ -15,18 +15,18 @@ export default function HeroSection() {
       <Container>
         <div className="relative mx-auto max-w-4xl text-center">
           <Badge variant="accent" className="mb-6">
-            Trusted by 10,000+ businesses
+            Trusted by 25,000+ beauty professionals
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
-            Find the{" "}
-            <span className="bg-gradient-to-r from-accent to-yellow-300 bg-clip-text text-transparent">
-              perfect service
+            Your Perfect{" "}
+            <span className="bg-gradient-to-r from-primary to-pink-300 bg-clip-text text-transparent">
+              Beauty Experience
             </span>{" "}
-            for every need
+            Awaits
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300 md:text-xl">
-            Connect with top-rated professionals in your area. From home
-            services to creative experts — Finda makes it easy.
+            Book top-rated beauty professionals in your city. Nails, hair,
+            lashes, brows &amp; more — all in one place.
           </p>
 
           {/* Search Bar */}
@@ -70,8 +70,8 @@ export default function HeroSection() {
                 />
               </svg>
               <span>
-                <span className="font-semibold text-white">50,000+</span> verified
-                reviews
+                <span className="font-semibold text-white">500+</span> verified
+                beauty professionals
               </span>
             </div>
             <div className="h-4 w-px bg-slate-600" />
@@ -95,7 +95,7 @@ export default function HeroSection() {
                 />
               </svg>
               <span>
-                <span className="font-semibold text-white">200+</span> cities
+                <span className="font-semibold text-white">50+</span> cities
                 covered
               </span>
             </div>

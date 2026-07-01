@@ -18,7 +18,7 @@ export default function LoginPage() {
   return (
     <AuthForm
       title="Welcome back"
-      subtitle="Sign in to your Finda account"
+      subtitle="Sign in to your FINDA account"
       onSubmit={handleSubmit}
       socialButtons={
         <>

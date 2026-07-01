@@ -12,31 +12,31 @@ interface ActivityFeedProps {
 const defaultActivities: Activity[] = [
   {
     id: "1",
-    text: "You booked a Haircut session with Sarah's Salon",
+    text: "You booked a Gel Manicure with Sarah Chen",
     time: "2 hours ago",
-    icon: <span className="text-sm">📅</span>,
+    icon: <span className="text-sm">💅</span>,
   },
   {
     id: "2",
-    text: "New message from Alex regarding your home cleaning",
+    text: "New message from Jessica about your balayage appointment",
     time: "5 hours ago",
     icon: <span className="text-sm">💬</span>,
   },
   {
     id: "3",
-    text: "Your booking with FitLife Gym was confirmed",
+    text: "Your lash fill with Mia Rodriguez was confirmed",
     time: "Yesterday",
     icon: <span className="text-sm">✅</span>,
   },
   {
     id: "4",
-    text: "You added QuickFix Plumbing to your favorites",
+    text: "You added Aisha Patel — Brow Artistry to your favorites",
     time: "2 days ago",
     icon: <span className="text-sm">❤️</span>,
   },
   {
     id: "5",
-    text: "Review submitted for PetCare Plus",
+    text: "Review submitted for Olivia Kim — Glow Skincare",
     time: "3 days ago",
     icon: <span className="text-sm">⭐</span>,
   },

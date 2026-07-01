@@ -28,16 +28,16 @@ export default function Home() {
               How It Works
             </h2>
             <p className="mt-4 text-muted">
-              Get started in three simple steps
+              Book your next beauty appointment in three simple steps
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
                 step: "01",
-                title: "Search & Discover",
+                title: "Discover",
                 description:
-                  "Browse categories or search for the exact service you need in your area.",
+                  "Browse beauty categories or search for the perfect nail artist, hairstylist, or lash tech in your area.",
                 icon: (
                   <svg
                     className="h-8 w-8"
@@ -58,7 +58,7 @@ export default function Home() {
                 step: "02",
                 title: "Compare & Choose",
                 description:
-                  "Read reviews, compare prices, and pick the professional that fits your needs.",
+                  "Read real reviews, view portfolios, compare prices, and pick the beauty professional that matches your style.",
                 icon: (
                   <svg
                     className="h-8 w-8"
@@ -77,9 +77,9 @@ export default function Home() {
               },
               {
                 step: "03",
-                title: "Book & Relax",
+                title: "Book & Glow",
                 description:
-                  "Book instantly with secure payment and enjoy peace of mind with our guarantee.",
+                  "Book instantly with secure payment. Show up, relax, and leave feeling fabulous.",
                 icon: (
                   <svg
                     className="h-8 w-8"
@@ -120,15 +120,15 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary to-primary-hover">
+      <section className="section-padding bg-gradient-to-r from-primary to-accent">
         <Container narrow>
           <div className="text-center">
             <h2 className="text-3xl font-bold text-white md:text-4xl">
-              Ready to grow your business?
+              Ready to grow your beauty business?
             </h2>
-            <p className="mt-4 text-primary-light">
-              Join thousands of service providers already on Finda. List your
-              service today and reach new customers.
+            <p className="mt-4 text-white/80">
+              Join hundreds of beauty professionals already on FINDA. List your
+              services today and reach new clients.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Button variant="secondary" size="lg">

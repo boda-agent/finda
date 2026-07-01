@@ -2,8 +2,8 @@ import Container from "@/components/layout/Container";
 
 const stats = [
   {
-    value: "2,500+",
-    label: "Service Providers",
+    value: "500+",
+    label: "Beauty Professionals",
     icon: (
       <svg
         className="h-8 w-8"
@@ -21,7 +21,7 @@ const stats = [
     ),
   },
   {
-    value: "200+",
+    value: "50+",
     label: "Cities Covered",
     icon: (
       <svg
@@ -45,8 +45,8 @@ const stats = [
     ),
   },
   {
-    value: "1,800+",
-    label: "Services Listed",
+    value: "15+",
+    label: "Beauty Services",
     icon: (
       <svg
         className="h-8 w-8"
@@ -58,19 +58,14 @@ const stats = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z"
-        />
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M6 6h.008v.008H6V6z"
+          d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"
         />
       </svg>
     ),
   },
   {
-    value: "50,000+",
-    label: "Customer Reviews",
+    value: "25K+",
+    label: "Happy Clients",
     icon: (
       <svg
         className="h-8 w-8"
@@ -82,7 +77,7 @@ const stats = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
         />
       </svg>
     ),
@@ -95,10 +90,10 @@ export default function StatsSection() {
       <Container>
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-dark md:text-4xl">
-            Finda by the Numbers
+            FINDA by the Numbers
           </h2>
           <p className="mt-4 text-muted">
-            Join a growing community of professionals and customers
+            Join a growing community of beauty lovers and professionals
           </p>
         </div>
         <div className="grid grid-cols-2 gap-6 md:grid-cols-4">

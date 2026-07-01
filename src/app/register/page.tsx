@@ -33,7 +33,7 @@ export default function RegisterPage() {
   return (
     <AuthForm
       title="Create your account"
-      subtitle="Join Finda to discover and book services"
+      subtitle="Join FINDA to discover and book beauty services"
       onSubmit={handleSubmit}
       socialButtons={
         <>
@@ -147,8 +147,8 @@ export default function RegisterPage() {
                 : "border-border bg-white text-muted hover:border-primary/40"
             }`}
           >
-            <span className="block text-lg mb-1">🔍</span>
-            Book services
+            <span className="block text-lg mb-1">💅</span>
+            I&apos;m a Client
           </button>
           <button
             type="button"
@@ -159,8 +159,8 @@ export default function RegisterPage() {
                 : "border-border bg-white text-muted hover:border-primary/40"
             }`}
           >
-            <span className="block text-lg mb-1">💼</span>
-            Offer services
+            <span className="block text-lg mb-1">✨</span>
+            I&apos;m a Beauty Professional
           </button>
         </div>
       </div>

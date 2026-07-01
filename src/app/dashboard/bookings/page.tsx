@@ -21,49 +21,49 @@ const bookings: Record<Tab, Array<{
 }>> = {
   upcoming: [
     {
-      service: "Haircut & Styling",
-      provider: "Sarah's Salon",
+      service: "Gel Manicure",
+      provider: "Sarah Chen — Nail Studio",
       date: "Jul 5, 2026",
       time: "2:00 PM",
       status: "upcoming",
     },
     {
-      service: "Home Deep Cleaning",
-      provider: "SparkleClean Co.",
+      service: "Balayage Hair Color",
+      provider: "Jessica Park — Hair Atelier",
       date: "Jul 8, 2026",
-      time: "9:00 AM",
+      time: "10:00 AM",
       status: "upcoming",
     },
     {
-      service: "Personal Training Session",
-      provider: "FitLife Gym",
-      date: "Jul 10, 2026",
-      time: "6:30 PM",
+      service: "Lash Fill",
+      provider: "Mia Rodriguez — Lash Lab",
+      date: "Jul 12, 2026",
+      time: "3:30 PM",
       status: "upcoming",
     },
   ],
   past: [
     {
-      service: "Plumbing Repair",
-      provider: "QuickFix Plumbing",
+      service: "Hydrafacial Treatment",
+      provider: "Olivia Kim — Glow Skincare",
       date: "Jun 28, 2026",
       time: "11:00 AM",
       status: "completed",
     },
     {
-      service: "Dog Walking",
-      provider: "PetCare Plus",
-      date: "Jun 25, 2026",
-      time: "3:00 PM",
+      service: "Microblading Brows",
+      provider: "Aisha Patel — Brow Artistry",
+      date: "Jun 20, 2026",
+      time: "1:00 PM",
       status: "completed",
     },
   ],
   cancelled: [
     {
-      service: "AC Maintenance",
-      provider: "CoolAir Services",
-      date: "Jun 20, 2026",
-      time: "10:00 AM",
+      service: "Deep Tissue Massage",
+      provider: "Emma Williams — Serene Spa",
+      date: "Jun 15, 2026",
+      time: "4:00 PM",
       status: "cancelled",
     },
   ],
@@ -78,7 +78,7 @@ export default function BookingsPage() {
       <div>
         <h1 className="text-2xl font-bold text-foreground">My Bookings</h1>
         <p className="mt-1 text-sm text-muted">
-          Manage your upcoming and past bookings.
+          Manage your upcoming and past beauty appointments.
         </p>
       </div>
 
